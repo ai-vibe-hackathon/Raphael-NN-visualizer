@@ -1,3 +1,6 @@
+<img width="1490" height="932" alt="image" src="https://github.com/user-attachments/assets/4c75dc80-4a4c-44e3-aaee-d8a8c2ee79b7" />
+
+
 # 🧠 Neural Network Visualizer
 
 An interactive, educational web app that visualizes how neural networks learn in real-time. Built with React, TensorFlow.js, and Framer Motion.
