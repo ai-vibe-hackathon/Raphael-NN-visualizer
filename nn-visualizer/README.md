@@ -15,6 +15,11 @@ An interactive, educational web app that visualizes how neural networks learn in
 - **Educational Content**: Tooltips and guides explaining every concept
 - **Beautiful UI**: Dark theme with smooth animations and glow effects
 
+## 📋 Prerequisites
+
+- **Node.js** 18+ (check with `node --version`)
+- **npm** 9+ (check with `npm --version`)
+
 ## 🚀 Quick Start
 
 ```bash
@@ -30,6 +35,38 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## 📦 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server with hot reload |
+| `npm run build` | Build for production (outputs to `dist/`) |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint to check code quality |
+
+## 🌐 Deployment
+
+To deploy the app:
+
+```bash
+# Build for production
+npm run build
+
+# The dist/ folder contains static files ready for any hosting:
+# - Vercel, Netlify, GitHub Pages, etc.
+```
+
+### Deploy to Vercel (Recommended)
+```bash
+npx vercel
+```
+
+### Deploy to GitHub Pages
+```bash
+npm run build
+# Push dist/ contents to gh-pages branch
+```
 
 ## 🎮 How to Use
 
